@@ -6,7 +6,7 @@ This repository showcases comprehensive data mining and machine learning techniq
 
 ## Portfolio Components
 
-### 🎯 1. Customer Churn Prediction (Classification)
+### [TARGET] 1. Customer Churn Prediction (Classification)
 **Advanced machine learning classification system for predicting customer churn**
 
 - **Objective**: Predict customer churn using ensemble methods and hyperparameter optimization
@@ -15,7 +15,7 @@ This repository showcases comprehensive data mining and machine learning techniq
 - **Performance**: 89.2% accuracy, 0.94 AUC-ROC
 - **Business Impact**: Proactive customer retention strategies
 
-### 🔍 2. Medical Data Clustering (Unsupervised Learning)
+### [SEARCH] 2. Medical Data Clustering (Unsupervised Learning)
 **Patient segmentation using advanced clustering techniques**
 
 - **Objective**: Identify patient clusters for personalized healthcare strategies
@@ -24,7 +24,7 @@ This repository showcases comprehensive data mining and machine learning techniq
 - **Validation**: Silhouette analysis, elbow method, cluster profiling
 - **Applications**: Treatment personalization, resource allocation
 
-### 📈 3. Revenue Forecasting (Time Series Analysis)
+### [CHART] 3. Revenue Forecasting (Time Series Analysis)
 **ARIMA-based forecasting system with comprehensive validation**
 
 - **Objective**: Forecast business revenue using time series modeling
@@ -37,23 +37,23 @@ This repository showcases comprehensive data mining and machine learning techniq
 
 ```
 Data Mining Portfolio/
-├── Classification/
-│   ├── churn_prediction.ipynb          # Main churn analysis
-│   ├── churn_prediction_dashboard.twb   # Tableau dashboard
-│   ├── churn_model.joblib              # Trained model
-│   ├── churn_preprocessor.joblib       # Data preprocessing pipeline
-│   └── datasets/                       # Training, validation, test sets
-├── Clustering/
-│   ├── clustering_analysis.ipynb       # Medical data clustering
-│   ├── medical_clean.csv               # Preprocessed medical data
-│   └── medical_clean_with_clusters.csv # Data with cluster assignments
-├── Time Series/
-│   ├── time_series_modeling.ipynb      # ARIMA forecasting
-│   ├── cleaned_revenue_data.csv        # Revenue time series
-│   ├── forecast_results.csv            # Model predictions
-│   ├── future_forecast.csv             # Forward projections
-│   └── figures/                        # Visualization outputs
-└── README.md
+|-- Classification/
+|   |-- churn_prediction.ipynb          # Main churn analysis
+|   |-- churn_prediction_dashboard.twb   # Tableau dashboard
+|   |-- churn_model.joblib              # Trained model
+|   |-- churn_preprocessor.joblib       # Data preprocessing pipeline
+|   +-- datasets/                       # Training, validation, test sets
+|-- Clustering/
+|   |-- clustering_analysis.ipynb       # Medical data clustering
+|   |-- medical_clean.csv               # Preprocessed medical data
+|   +-- medical_clean_with_clusters.csv # Data with cluster assignments
+|-- Time Series/
+|   |-- time_series_modeling.ipynb      # ARIMA forecasting
+|   |-- cleaned_revenue_data.csv        # Revenue time series
+|   |-- forecast_results.csv            # Model predictions
+|   |-- future_forecast.csv             # Forward projections
+|   +-- figures/                        # Visualization outputs
++-- README.md
 ```
 
 ## Key Achievements
@@ -64,7 +64,7 @@ Data Mining Portfolio/
 | **Medical Clustering** | Silhouette Score | 0.73 | 5 distinct patient segments |
 | **Revenue Forecasting** | MAPE | 8.2% | 95% prediction confidence |
 
-## 🎯 Classification: Churn Prediction
+## [TARGET] Classification: Churn Prediction
 
 ### Methodology
 - **Data Preprocessing**: Feature engineering, encoding, scaling
@@ -91,7 +91,7 @@ Data Mining Portfolio/
 - **Resource Optimization**: Focus retention efforts efficiently
 - **Revenue Protection**: Estimated $2.1M annual retention value
 
-## 🔍 Clustering: Medical Data Analysis
+## [SEARCH] Clustering: Medical Data Analysis
 
 ### Methodology
 - **Exploratory Analysis**: Feature distributions, correlations
@@ -117,7 +117,7 @@ Data Mining Portfolio/
 - **Cost Optimization**: Efficient care delivery strategies
 - **Quality Improvement**: Targeted intervention programs
 
-## 📈 Time Series: Revenue Forecasting
+## [CHART] Time Series: Revenue Forecasting
 
 ### Methodology
 - **Time Series Decomposition**: Trend, seasonal, residual analysis
